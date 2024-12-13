@@ -1,0 +1,47 @@
+body {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav main ads"
+        "footer footer footer";
+    grid-template-columns: 15% 1fr 20%;
+    grid-template-rows: 50px 1fr 60px;
+    gap: 10px;
+    height: 100vh;
+    margin: 0;
+
+}
+
+div {
+    padding: 20px;
+    border: 1px solid red;
+}
+
+#header {
+    grid-area: header;
+}
+
+#main {
+    grid-area: main;
+}
+
+#nav {
+    grid-area: nav;
+}
+
+#ads {
+    grid-area: ads;
+}
+
+#footer {
+    grid-area: footer;
+}
+.section1{
+    color: red;
+}
+.section2{
+    color: blue;
+}
+.section3{
+    color: blueviolet;
+}
